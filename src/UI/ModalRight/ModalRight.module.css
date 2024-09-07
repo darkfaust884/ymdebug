@@ -1,0 +1,95 @@
+.modalBody {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+  }
+  .modalContent {
+    transform: translateX(300px);
+    min-width: 350px;
+    background: #fff;
+    position: absolute;
+    opacity: 0;
+    padding: 15px;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 10;
+    transition: all 2s linear;
+  }
+  .checkoutActive .modalContent {
+    animation: checkout 1s forwards !important;
+  }
+  @keyframes checkout {
+    0% {
+      width: 350px;
+    }
+    50% {
+      width: 73vw;
+    }
+    100% {
+      width: 70vw;
+    }
+  }
+  .active {
+    opacity: 1;
+    transition: all 0.3s linear;
+    visibility: visible;
+  }
+  .active > .modalContent {
+    transform: translateX(0px);
+    transition: 0.3s linear;
+    opacity: 1;
+    overflow: auto !important;
+    animation: openModal 1s forwards;
+  }
+  @keyframes openModal {
+    0% {
+      transform: translateX(300px);
+    }
+    60% {
+      transform: translateX(-20px);
+      padding-right: 50px;
+      right: -20px;
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  .closeModal {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-top: 5px;
+  }
+  .closeModal::after {
+    content: '';
+    position: absolute;
+    background: black;
+    height: 100%;
+    width: 2px;
+    right: 12px;
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .closeModal::before {
+    content: '';
+    position: absolute;
+    background: black;
+    height: 100%;
+    width: 2px;
+    right: 12px;
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  

@@ -1,0 +1,40 @@
+.modalBody, .active {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s linear;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+.modalContent {
+  margin-top: 100px;
+  height: fit-content;
+  transition: all 0.3s linear;
+  opacity: 0;
+  min-width: 100px;
+  z-index: 999999;
+  padding: 20px;
+}
+.active {
+  opacity: 1;
+  transition: all 0.3s linear;
+  visibility: visible;
+  z-index: 999999;
+}
+.active > .modalContent {
+  transition: all 0.3s linear !important;
+  z-index: 999999;
+  overflow: auto !important;
+  opacity: 1;
+}
+@media screen and (max-width: 400px) {
+  .modalContent {
+    margin-top: 50px;
+  }
+}

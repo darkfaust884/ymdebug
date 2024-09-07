@@ -1,0 +1,178 @@
+.EcommerceContainer {
+    /* background: red; */
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 80px;
+}
+
+.EcommerceList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.ecomButton {
+    width: 300px;
+    height: 45px;
+    /* border-radius: 3px; */
+    font-size: 15px;
+    background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%);
+    border: 0px solid #000;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+.ecomButton:not(:first-child) {
+    margin-top: 15px;
+}
+.ecomButton:hover {
+    transition: .15s;
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;     
+}
+
+  .formCase {
+    padding: 28px;
+    max-width: 400px;
+    background: #fff;
+    border: 1px solid #8c8c8c;
+    border-radius: 8px;
+    margin: 0 auto 50px auto;
+  }
+  .formInput {
+    display: flex;
+    flex-direction: column;
+  }
+  .formInput label {
+    margin-bottom: 5px;
+    color: #313746;
+  }
+  .formInput input, .formInput textarea {
+    outline: none;
+    background: whitesmoke;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+    transition: 0.15s linear;
+  }
+  .formInput input:focus, .formInput textarea:focus {
+    border: 1px solid black;
+    transition: 0.15s linear;
+  }
+  .formButton {
+    margin: 0 auto;
+    width: 70%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid black;
+    transition: 0.15s linear;
+  }
+  .formButton:focus {
+    outline: none;
+  }
+  .formButton:hover {
+    background: #313746;
+    color: whitesmoke;
+    border: 1px solid black;
+    transition: 0.15s linear;
+  }
+  .contactCase {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 40px;
+    border-radius: 12px;
+  }
+  .contactFormTitle {
+    font-size: 34px;
+  }
+  .contactCase ul {
+    list-style-type: none;
+    margin-bottom: -1rem;
+  }
+  .contactCase ul li {
+    margin-bottom: 20px;
+  }
+  .contactCase .title h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .numberLink {
+    text-decoration: none;
+    color: black;
+    transition: 0.1s linear;
+  }
+  .numberLink:nth-child(n + 3) {
+    color: #646464;
+    margin-left: 5px;
+  }
+  .numberLink:nth-child(n + 3):hover {
+    color: #313746;
+    transition: 0.1s linear;
+  }
+  .contactFormContainer {
+    background: white;
+    border-radius: 90px 90px 0 0;
+  }
+  .callbackFormTitle {
+    text-align: center;
+    margin: 50px 0 40px 0;
+  }
+  .contactItem {
+    position: relative;
+    padding-left: 20px;
+  }
+  .contactItem::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    bottom: 2px;
+    width: 2px;
+    background: #000;
+  }
+  @media screen and (max-width: 991px) {
+    .personalInfo {
+      margin-top: 40px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .contactFormContainer {
+      border-radius: 24px;
+    }
+  }
+  .errorEmail {
+    color: red !important;
+    margin: 5px 0 0 3px;
+  }
+  .confirmMessage {
+    background: #fff;
+    padding: 30px;
+    border-radius: 6px;
+  }
+  .confirmMessageImage {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .confirmMessageTitle {
+    text-align: center;
+    margin: 20px 0 20px 0;
+  }
+  

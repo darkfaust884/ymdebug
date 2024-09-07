@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('../public/fonts/Bahnschrift.eot');
+  src: url('../public/fonts/Bahnschrift.eot') format('embedded-opentype'),
+       url('../public/fonts/Bahnschrift.woff2') format('woff2'),
+       url('../public/fonts/Bahnschrift.woff') format('woff'),
+       url('../public/fonts/Bahnschrift.ttf') format('truetype'),
+       url('../public/fonts/Bahnschrift.svg#Bahnschrift') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../public/fonts/montserratlight.woff2') format('woff2'), 
+  url('../public/fonts/montserratlight.woff') format('woff'), 
+  url('../public/fonts/montserratlight.ttf') format('truetype');
+  /* font-weight: 900; */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MontserratBlack';
+  src: url('../public/fonts/montserratbold.woff2') format('woff2'), 
+  url('../public/fonts/montserratbold.woff') format('woff'), 
+  url('../public/fonts/montserratbold.ttf') format('truetype');
+  /* font-weight: 900; */
+  font-style: normal;
+}
