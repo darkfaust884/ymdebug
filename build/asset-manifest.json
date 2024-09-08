@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.b80b5fe8.js",
-    "static/js/453.fa4c875c.chunk.js": "/static/js/453.fa4c875c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.7e529871.css",
+    "main.js": "/static/js/main.76d45160.js",
+    "static/media/Bahnschrift.svg": "/static/media/Bahnschrift.858afad387481531fb18.svg",
+    "static/media/Bahnschrift.eot": "/static/media/Bahnschrift.8a0045e2b8b29260b7d8.eot",
+    "static/media/Bahnschrift.ttf": "/static/media/Bahnschrift.9536baf6ae7c92cc2577.ttf",
+    "static/media/Bahnschrift.woff": "/static/media/Bahnschrift.a33b0839dd7749ca5bd7.woff",
+    "static/media/confirm.png": "/static/media/confirm.b5cc08f3d7b70db2d90b.png",
+    "static/media/Bahnschrift.woff2": "/static/media/Bahnschrift.21e0c63061145ffd3a7d.woff2",
+    "static/media/montserratbold.ttf": "/static/media/montserratbold.4e9d35edb6aaadf739e7.ttf",
+    "static/media/montserratlight.ttf": "/static/media/montserratlight.7f9156d61f3154da9ee2.ttf",
+    "static/media/montserratbold.woff": "/static/media/montserratbold.a108c1f61f19ae6f6c99.woff",
+    "static/media/montserratlight.woff": "/static/media/montserratlight.b3f8151206e21cbc61c5.woff",
+    "static/media/montserratbold.woff2": "/static/media/montserratbold.592478ce95831fb79baf.woff2",
+    "static/media/montserratlight.woff2": "/static/media/montserratlight.ab1b3f213e1bdae5b57e.woff2",
     "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.b80b5fe8.js.map": "/static/js/main.b80b5fe8.js.map",
-    "453.fa4c875c.chunk.js.map": "/static/js/453.fa4c875c.chunk.js.map"
+    "main.7e529871.css.map": "/static/css/main.7e529871.css.map",
+    "main.76d45160.js.map": "/static/js/main.76d45160.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.b80b5fe8.js"
+    "static/css/main.7e529871.css",
+    "static/js/main.76d45160.js"
   ]
 }

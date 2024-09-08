@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContentJsonld = () => {
     return <>
-    Content Json-LD
+    В разработке!
     </>
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContentOpengraph = () => {
     return <>
-    Content Opengraph
+    В разработке!
     </>
 }
 
